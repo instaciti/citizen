@@ -1,0 +1,417 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #333; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 13px;
+  line-height: 32px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav .active {
+  background: #272727 !important;
+  border-left: 1px solid #dc3545 !important;
+  color: #dc3545 !important;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #dc3545 !important;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.top-navbar-icon {
+  position: fixed;
+  z-index: 1; 
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+.user-pro {
+  height: 130px;
+  width: 130px;
+  border: 5px solid #b1b2b4;
+  box-shadow: 0 0 0 10px rgb(0 0 0 / 20%);
+}
+
+.custom-color {
+  color: #2AC17E;
+}
+
+.hero-bg {
+  background: url(../img/hero-background.svg) no-repeat top center;
+ -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+.heading {
+  font-size: 60px;
+}
+
+.hello-heading {
+  font-size: 44px;
+}
+
+.heading-para {
+  color: #707070;
+}
+
+.btn-hire {
+  background-color: #2AC17E;
+  color: #ffffff;
+  padding: 8px 30px;
+}
+
+.btn-hire:hover {
+  background-color: #127a4b;
+  color: #ffffff;
+}
+
+.btn-portfolio {
+  color: #2AC17E;
+  border: 1px solid #2AC17E;
+  padding: 8px 30px;
+}
+
+.btn-portfolio:hover {
+  color: #ffffff;
+  background-color: #127a4b;
+}
+
+.about-bg {
+  background-color: #F9F7FC;
+}
+
+.custom-badge {
+  background-color: #F3F3F3;
+  border-radius: 35px;
+  padding: 8px 10px;
+  font-size: 10px;
+}
+
+.custom-badge:hover {
+  background-color: #2AC17E;
+  color: #ffffff;
+}
+
+.about-hi {
+  font-size: 20px;
+}
+
+.resume-section {
+  padding-top: 70px;
+  padding-bottom: 60px;
+  color: #666;
+  letter-spacing: 1px;
+  background-color: #fff !important;
+}
+
+.resume-border {
+  border: 2px solid #2AC17E;
+}
+
+.resume-border:hover {
+  border: 2px solid #dc3545;
+}
+
+.edu-detail {
+  border-bottom: 3px solid #2AC17E;
+  padding-bottom: 6px;
+  font: 700 18px/24px 'Oswald', sans-serif;
+  letter-spacing: 1px;
+  color: #313131;
+}
+
+.square-shape {
+  transform: rotate(45deg);
+  color: #000;
+  position: absolute;
+}
+
+.square-shape:hover {
+  transition: 0.9s;
+  transform: rotate(135deg);
+  color: #dc3545;
+}
+
+.detail-date {
+  background-color: #dc3545;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-left: 85px;
+  padding: 8px 15px;
+}
+
+.detail-date:hover {
+  background-color: #2AC17E;
+}
+
+.university-name {
+  font: 25px/30px 'Oswald', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.bachlor-course {
+  font-size: 20px;
+  line-height: 30px;
+  color: #313131;
+}
+
+.st-subject {
+  font-weight: 700;
+  font: 15px/30px 'opensans-bold', sans-serif;
+}
+
+.subject-datils {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+
+.education-line {
+  border-left: 2px solid #2AC17E;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.wg-box-content {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+.wg-box-content .wg-box-content-overlay {
+  background: rgba(0,0,0,0.8);
+  position: absolute;
+  /* height: 99%;
+  width: 100%; */
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.wg-box-content:hover .wg-box-content-overlay{
+  opacity: 1;
+}
+
+.wg-box-content-image{
+  width: 100%;
+}
+
+.wg-box-content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.wg-box-content:hover .wg-box-content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.wg-box-content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.wg-box-content-details p{
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.hover-border {
+  padding-top: 10px;
+  border: 1px solid #fff;
+  margin: 15px;
+}
+
+.wg-box-fadeIn-bottom{
+  top: 80%;
+}
+
+.social-icon {
+  color: #000;
+}
+
+.social-icon:hover {
+  color: #2AC17E !important;
+}
+
+.sort-experience-div {
+  /* background-color: rgb(190, 170, 170); */
+  margin-top: -100px !important;
+  box-shadow: 0 1px 32px rgb(20 23 26 / 12%);
+}
+
+.wg-box-content {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+.wg-box-content .wg-box-content-overlay {
+  background: rgba(0,0,0,0.8);
+  position: absolute;
+  /* height: 99%;
+  width: 100%; */
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.wg-box-content:hover .wg-box-content-overlay{
+  opacity: 1;
+}
+
+.wg-box-content-image{
+  width: 100%;
+}
+
+.wg-box-content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.wg-box-content:hover .wg-box-content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.wg-box-content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+.wg-box-content-details p{
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.hover-border {
+  padding-top: 10px;
+  border: 1px solid #fff;
+  margin: 15px;
+}
+
+.wg-box-fadeIn-bottom{
+  top: 80%;
+}
+
+.timeline-heading {
+  word-spacing: -0.15em;
+  font-weight: 700;
+  font-size: 28px;
+  color: #313131;
+}
+
+.timeline-default-text {
+  top: 20%;
+}
+
+.wg-box-content-text a {
+  color: #11ABB0;
+  text-decoration: none;
+}
+
+.round-img {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.testimonals-card {
+  box-shadow: 0 1px 32px rgb(20 23 26 / 12%);
+  border: 1px solid #ffffff;
+}
+
+.testimonals-card:hover {
+  border: 1px solid #2AC17E !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.top-banner {
+  border-radius: 0px !important;
+}
