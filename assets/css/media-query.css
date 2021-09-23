@@ -1,0 +1,121 @@
+@media (min-width: 289px) and (max-width: 571px) {
+    .custom-breakpoint {
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    .heading {
+        font-size: 32px;
+    } 
+
+    .hello-heading {
+        font-size: 24px;
+    }
+
+    .square-shape {
+        padding-left: 30px;
+    }
+
+    .detail-date {
+        font-size: 10px;
+        margin-left: 65px;
+        padding: 7px 8px;
+    }
+
+    .education-line {
+        margin-left: 33px; 
+        margin-top: 20px;
+    }
+
+    .university-name, .bachlor-course, .st-subject, .subject-datils {
+        margin-left: 0px !important;
+    }
+
+    .heading-para  {
+        font-size: 11px;
+    }
+
+    .btn-hire, .btn-portfolio {
+        padding: 8px 25px;
+        font-size: 12px;
+    }
+}
+ 
+@media (min-width: 576px) and (max-width: 768px) { 
+
+    .heading-para {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .edu-detail {
+        font-size: 12px;
+    }  
+    
+    .heading {
+        font-size: 40px;
+    }
+
+    .experience {
+        padding: 0px !important;
+    }
+
+    .btn-hire, .btn-portfolio {
+        padding: 4px 15px;
+        font-size: 12px;
+    }
+
+ }
+
+ 
+@media (min-width: 992px) { 
+    
+}
+
+@media (min-width: 1200px) { 
+    
+ }
+
+@media (min-width: 2000px) {
+    .custom-breakpoint {
+        padding-left: 15% !important;
+        padding-right: 15% !important;
+    }
+
+    .hello-heading {
+        font-size: 54px;
+    }
+
+    .heading {
+        font-size: 80px;
+    }
+
+    .heading-para {
+        font-size: 25px;
+    }
+
+    .custom-badge {
+        padding: 8px 10px;
+        font-size: 18px;
+    }
+
+    .about-hi {
+        font-size: 28px;
+    }
+
+    .st-subject {
+        font-size: 22px;
+    }
+
+    .subject-datils {
+        font-size: 20px;
+    }
+
+    .top-navbar-icon {
+        font-size: 30px;
+    }
+
+    .video-h {
+        height: 500px;
+    }
+ }
