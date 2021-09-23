@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2048.173" height="1183.783" viewBox="0 0 2048.173 1183.783">
+  <g id="Group_3951" data-name="Group 3951" transform="translate(39 126.783)">
+    <rect id="Rectangle_2160" data-name="Rectangle 2160" width="1920" height="1057" fill="#fff"/>
+    <rect id="Rectangle_2258" data-name="Rectangle 2258" width="205" height="205" rx="40" transform="translate(1755.608 -70.277) rotate(-16)" fill="#f9f9f9"/>
+    <path id="Path_6909" data-name="Path 6909" d="M-10870-18326.412s-216.948,533.16,247.946,568.412c0,0,179.015,31.984,491.881-172.92s726.191,119.459,726.191,119.459" transform="translate(11158 18740)" fill="none" stroke="#2ac17e" stroke-width="2" stroke-dasharray="10 25" opacity="0.53"/>
+    <g id="Polygon_2" data-name="Polygon 2" transform="translate(316.218 413.438) rotate(-150)" fill="none">
+      <path d="M24.5,0,49,42H0Z" stroke="none"/>
+      <path d="M 24.5 3.969272613525391 L 3.482074737548828 40 L 45.51792526245117 40 L 24.5 3.969272613525391 M 24.5 0 L 49 42 L 0 42 L 24.5 0 Z" stroke="none" fill="#dbdbdb"/>
+    </g>
+    <g id="Polygon_3" data-name="Polygon 3" transform="translate(1789.593 900.197) rotate(68)" fill="#fff">
+      <path d="M 58.13316345214844 50.5 L 0.8668359518051147 50.5 L 29.5 0.9985978007316589 L 58.13316345214844 50.5 Z" stroke="none"/>
+      <path d="M 29.5 1.997196197509766 L 1.733673095703125 50 L 57.26632690429688 50 L 29.5 1.997196197509766 M 29.5 0 L 59 51 L 0 51 L 29.5 0 Z" stroke="none" fill="#c6eedc"/>
+    </g>
+    <g id="Polygon_4" data-name="Polygon 4" transform="translate(1800.025 910.002) rotate(68)" fill="none">
+      <path d="M29.5,0,59,51H0Z" stroke="none"/>
+      <path d="M 29.5 1.997196197509766 L 1.733673095703125 50 L 57.26632690429688 50 L 29.5 1.997196197509766 M 29.5 0 L 59 51 L 0 51 L 29.5 0 Z" stroke="none" fill="#8edeba"/>
+    </g>
+    <g id="Ellipse_6157" data-name="Ellipse 6157" transform="translate(-39 -54)" fill="#25a96f" stroke="#707070" stroke-width="1" opacity="0.1">
+      <circle cx="71" cy="71" r="71" stroke="none"/>
+      <circle cx="71" cy="71" r="70.5" fill="none"/>
+    </g>
+  </g>
+</svg>
